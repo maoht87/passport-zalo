@@ -1,0 +1,48 @@
+{
+	"name": "passport-zalo",
+	"version": "1.0.0",
+	"description": "Zalo authentication strategy for Passport.",
+	"keywords": [
+		"passport",
+		"zalo",
+		"auth",
+		"authn",
+		"authentication",
+		"identity"
+	],
+	"author": {
+		"name": "Mao Dao",
+		"email": "maodk61@gmail.com",
+		"url": ""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/maoht87/passport-zalo.git"
+	},
+	"bugs": {
+		"url": "https://github.com/maoht87/passport-zalo/issues"
+	},
+	"license": "MIT",
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://opensource.org/licenses/MIT"
+		}
+	],
+	"main": "./lib",
+	"dependencies": {
+		"passport-oauth2": "1.x.x"
+	},
+	"devDependencies": {
+		"make-node": "0.4.6",
+		"mocha": "2.x.x",
+		"chai": "2.x.x",
+		"chai-passport-strategy": "1.x.x"
+	},
+	"engines": {
+		"node": ">= 0.4.0"
+	},
+	"scripts": {
+		"test": "make test"
+	}
+}
